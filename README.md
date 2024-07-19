@@ -7,17 +7,17 @@ A simple package to remove stop words from text. This package is written in Type
 You can install the package using npm:
 
 ```bash
-npm install stopword-remover
+npm install cdx-stopword-remover
 # or
-yarn add stopword-remover
+yarn add cdx-stopword-remover
 # or
-bun install stopword-remover
+bun install cdx-stopword-remover
 ```
 
 ## Code:
 
 ```bash
-const { removeStopWords } = require('stopword-remover');
+import { removeStopWords } from 'stopword-remover'
 
 const text = "This is a simple example to demonstrate the removal of stop words.";
 const result = removeStopWords(text);
